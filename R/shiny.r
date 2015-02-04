@@ -73,7 +73,7 @@ shine <- function(x) {
 
   shiny::addResourcePath("lineprof", system.file("www", package = "lineprof"))
   ui <- shiny::bootstrapPage(
-    shiny::tags$div(class = "span12", style = "padding: 10px 0px;",
+    shiny::tags$div(class = "span16", style = "padding: 10px 0px;",
       shiny::tags$h1("Line profiling", shiny::actionButton("back", "Back"))
     ),
     shiny::mainPanel(
